@@ -1,0 +1,188 @@
+/* Adding fonts here */
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Dela+Gothic+One&family=Monofett&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* designing the body */
+body {
+  background: #cb1590;
+  background: radial-gradient(circle, #cb1590 -100%, #e23b22 0%, #ffffff 100%);
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: monospace;
+}
+
+/* designing the title */
+h1,
+#title {
+  text-shadow: 5px 5px 10px #e1e1e1;
+  text-align: center;
+  font-size: 3em;
+  bottom: 0;
+  color: #121212;
+  font-family: "Monofett", cursive;
+}
+
+/* designing the quotes */
+blockquote {
+  color: #050532;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5%;
+  border-radius: 12px;
+  padding: 10px;
+  font-family: "Aladin", cursive;
+  box-shadow: 10px 10px 5px 0 #7e3d3d;
+}
+
+/* designing the image of Ada Lovelace */
+img {
+  justify-content: center;
+  place-items: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  border-radius: 20%;
+  box-shadow: 0 5px 10px 15px #e88c8c, 20px 20px 15px #000000;
+}
+
+/* designing the image caption */
+#img-caption {
+  color: #030220;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+small em p {
+  margin-top: 20px;
+}
+
+/* designing the paragraph section */
+div #tribute-info {
+  box-shadow: 20px 15px 10px 5px #b77070;
+  background-color: #e5a5a5;
+  color: #000000;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 10%;
+  /* border-radius: 5%; */
+  border: 5px solid #e49191;
+  font-family: "Dela Gothic One", cursive;
+}
+.para {
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+/* designing the paragraph title */
+#title_Ada {
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 5px 5px 10px #000000;
+}
+/* designing the learn more heading */
+
+h6 {
+  color: #9a0008;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* designing the link */
+
+#tribute-link {
+  text-decoration: none;
+  color: #0300ca;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+/* designing the footer */
+.footer {
+  color: #6f6c6c;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******** Adding media query here ***********/
+
+@media (min-width: 365px) and (max-width: 665px) {
+  h1,
+  #title {
+    font-size: 2em;
+  }
+
+  blockquote {
+    font-weight: 300;
+    font-size: 15px;
+    margin: 5%;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  /* designing the image of Ada Lovelace */
+  img {
+    max-width: 70%;
+    border-radius: 20%;
+  }
+
+  /* designing the image caption */
+  #img-caption {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 10%;
+  }
+
+  /* designing the paragraph section */
+  div #tribute-info {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 10%;
+    font-family: "monospace";
+  }
+  .para {
+    margin: 10px;
+  }
+
+  /* designing the paragraph title */
+  #title_Ada {
+    margin: 10px;
+  }
+  /* designing the learn more heading */
+  h6 {
+    margin-bottom: 5%;
+    font-size: 14px;
+  }
+
+  /* designing the link */
+  #tribute-link {
+    margin-bottom: 2%;
+    font-size: 16px;
+  }
+
+  /* designing the footer */
+  .footer {
+    font-size: 15px;
+  }
+}
